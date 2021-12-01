@@ -15,6 +15,7 @@
 		1CE43902275535670045083A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1CE43900275535670045083A /* LaunchScreen.storyboard */; };
 		1CE4390C27557DF50045083A /* StoryPromptEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CE4390A27557DF50045083A /* StoryPromptEntry.swift */; };
 		1CE4390D27557DF50045083A /* StoryPrompts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CE4390B27557DF50045083A /* StoryPrompts.swift */; };
+		1CE43916275825340045083A /* StoryPromptViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CE43915275825340045083A /* StoryPromptViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		1CE43903275535670045083A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1CE4390A27557DF50045083A /* StoryPromptEntry.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StoryPromptEntry.swift; sourceTree = "<group>"; };
 		1CE4390B27557DF50045083A /* StoryPrompts.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StoryPrompts.swift; sourceTree = "<group>"; };
+		1CE43915275825340045083A /* StoryPromptViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryPromptViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,10 +62,10 @@
 		1CE438F4275535660045083A /* StoryPrompt */ = {
 			isa = PBXGroup;
 			children = (
+				1CE43910275817160045083A /* ViewControllers */,
 				1CE4390927557C050045083A /* Model */,
 				1CE438F5275535660045083A /* AppDelegate.swift */,
 				1CE438F7275535660045083A /* SceneDelegate.swift */,
-				1CE438F9275535660045083A /* ViewController.swift */,
 				1CE438FB275535660045083A /* Main.storyboard */,
 				1CE438FE275535670045083A /* Assets.xcassets */,
 				1CE43900275535670045083A /* LaunchScreen.storyboard */,
@@ -79,6 +81,15 @@
 				1CE4390B27557DF50045083A /* StoryPrompts.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		1CE43910275817160045083A /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				1CE438F9275535660045083A /* ViewController.swift */,
+				1CE43915275825340045083A /* StoryPromptViewController.swift */,
+			);
+			path = ViewControllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -152,6 +163,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1CE43916275825340045083A /* StoryPromptViewController.swift in Sources */,
 				1CE4390D27557DF50045083A /* StoryPrompts.swift in Sources */,
 				1CE438FA275535660045083A /* ViewController.swift in Sources */,
 				1CE438F6275535660045083A /* AppDelegate.swift in Sources */,
