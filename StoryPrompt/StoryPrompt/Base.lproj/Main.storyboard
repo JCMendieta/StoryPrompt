@@ -47,7 +47,14 @@
                             <outlet property="delegate" destination="i7e-SS-9iB" id="eBx-Eq-ila"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" id="7hx-NW-o4v"/>
+                    <navigationItem key="navigationItem" id="7hx-NW-o4v">
+                        <nil key="title"/>
+                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="Hdk-kR-3oY">
+                            <connections>
+                                <segue destination="BYZ-38-t0r" kind="show" id="ycJ-UF-Pll"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                     <connections>
                         <segue destination="mMK-Xr-O4r" kind="show" identifier="ShowStoryPrompt" id="ztP-zr-Oa9"/>
                     </connections>
@@ -65,7 +72,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="22" translatesAutoresizingMaskIntoConstraints="NO" id="KPL-yZ-TLg">
-                                <rect key="frame" x="20" y="101" width="374" height="653.5"/>
+                                <rect key="frame" x="20" y="145" width="374" height="653.5"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" spacing="28" translatesAutoresizingMaskIntoConstraints="NO" id="udm-16-bmA">
                                         <rect key="frame" x="0.0" y="0.0" width="374" height="34"/>
@@ -201,7 +208,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-19" y="531"/>
+            <point key="canvasLocation" x="-17" y="-218"/>
         </scene>
         <!--Story Prompt View Controller-->
         <scene sceneID="dB5-JD-ztN">
@@ -247,7 +254,7 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="ztP-zr-Oa9"/>
+        <segue reference="CXw-Vc-GLd"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="10.circle" catalog="system" width="128" height="121"/>
